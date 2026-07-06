@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    font-family:'Roboto',sans-serif;
+    background:#f8f9fa;
+    color:#202122;
+}
+
+/* Header */
+
+.top-bar{
+    background:white;
+    border-bottom:1px solid #dadce0;
+    padding:20px 50px;
+}
+
+.logo-small{
+    font-size:42px;
+    margin:0;
+    font-family:Georgia, serif;
+    font-weight:bold;
+}
+
+.subtitle{
+    color:#54595d;
+    margin-top:8px;
+    margin-bottom:20px;
+    font-size:15px;
+}
+
+.search-row{
+    display:flex;
+    gap:12px;
+    align-items:center;
+}
+
+.top-search{
+    width:500px;
+    padding:12px 18px;
+    border:1px solid #a2a9b1;
+    border-radius:4px;
+    font-size:16px;
+}
+
+button{
+    padding:12px 22px;
+    border:1px solid #a2a9b1;
+    background:#f8f9fa;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#eaecf0;
+}
+
+/* Article */
+
+.wiki{
+
+    width:900px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:40px 60px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.06);
+
+}
+
+.page-title{
+
+    font-size:48px;
+
+    margin-bottom:10px;
+
+    font-family:Georgia,serif;
+
+}
+
+h2{
+
+    border-bottom:1px solid #dadce0;
+
+    padding-bottom:8px;
+
+    margin-top:45px;
+
+    font-family:Georgia,serif;
+
+}
+
+p{
+
+    line-height:1.8;
+
+    font-size:17px;
+
+}
+
+ul{
+
+    line-height:2;
+
+    font-size:18px;
+
+}
+
+a{
+
+    color:#3366cc;
+
+    text-decoration:none;
+
+}
+
+a:hover{
+
+    text-decoration:underline;
+
+}

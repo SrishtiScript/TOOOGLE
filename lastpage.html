@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday!</title>
+
+<link rel="stylesheet" href="lastpage.css">
+
+</head>
+
+<body>
+
+<div class="journal">
+
+    <!-- PHOTOS -->
+
+    <img src="images/815124186_105282886970300_1783376958277.png" class="photo p1">
+    <img src="images/815124186_105282886970300_1783376994473.png" class="photo p2">
+    <img src="images/815124186_129251655434632_1775426705005 - Copy.png" class="photo p3">
+    <img src="images/OCS.jpg" class="photo p4">
+    <img src="images/815124186_140235755862225_1743447425202.png" class="photo p5">
+
+
+    <!-- TITLE -->
+
+    <h1 class="title">
+
+        <span class="red">H</span>
+        <span class="orange">A</span>
+        <span class="yellow">P</span>
+        <span class="green">P</span>
+        <span class="blue">Y</span>
+
+        <br>
+
+        <span class="purple">B</span>
+        <span class="pink">I</span>
+        <span class="red">R</span>
+        <span class="orange">T</span>
+        <span class="yellow">H</span>
+        <span class="green">D</span>
+        <span class="blue">A</span>
+        <span class="purple">Y</span>
+        <span class="pink">Y</span>
+    
+
+    </h1>
+
+
+    <!-- NOTES -->
+
+    <div class="notes">
+
+        <div class="note">
+           HAPPYYYY 20THHH (ur soooo much closer to old age now)😈😜
+        </div>
+
+        <div class="note">
+             MAY GOD BLESS YOU SWEET ANGEL!!
+        </div>
+
+        <div class="note">
+            HOPE YOU HAVE AN AMAAAZING BIRTHDAY AND A GREAT YEAR AHEAD💫
+        </div>
+
+        <div class="note">
+           CHEERS TO ANOTHER FULL TRIP AROUND THE SUN YAHOOOO
+        </div>
+
+        <div class="note">
+            SENDING VIRTUAL HUGS
+        </div>
+
+        <div class="note">
+             SEND CAKE🙏🎂
+        </div>
+
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+<script>
+
+window.onload = () => {
+
+confetti({
+    particleCount:250,
+    spread:180,
+    startVelocity:45,
+    origin:{ y:0.6 }
+});
+
+const end = Date.now() + 5000;
+
+(function frame(){
+
+    confetti({
+        particleCount:3,
+        angle:60,
+        spread:60,
+        origin:{x:0}
+    });
+
+    confetti({
+        particleCount:3,
+        angle:120,
+        spread:60,
+        origin:{x:1}
+    });
+
+    if(Date.now() < end){
+
+        requestAnimationFrame(frame);
+
+    }
+
+})();
+
+}
+
+</script>
+</body>
+
+</html>
